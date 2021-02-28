@@ -1,0 +1,13 @@
+name: 'Auto-cancel redundant Workflow Runs'
+description: 'Auto-cancel redundant Workflow Runs'
+author: 'Yuya Takeyama'
+branding:
+  icon: 'alert-circle'
+  color: 'gray-dark'
+inputs:
+  github-token:
+    required: true
+    description: 'GitHub API token'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
