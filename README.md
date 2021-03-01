@@ -20,7 +20,7 @@ jobs:
   auto-cancel:
     runs-on: ubuntu-latest
     steps:
-      - uses: yuya-takeyama/auto-cancel-redundant-workflow-runs-action@main
+      - uses: yuya-takeyama/auto-cancel-redundant-workflow-runs-action@v0.1.0
         with:
           github-token: ${{ secrets.REPO_GITHUB_TOKEN }}
 ```
