@@ -1,8 +1,8 @@
-<p align="center">
-  <a href="https://github.com/yuya-takeyama/auto-cancel-redundant-workflow-runs-action"><img alt="auto-cancel-redundant-workflow-runs-action status" src="https://github.com/yuya-takeyama/auto-cancel-redundant-workflow-runs-action/workflows/build-test/badge.svg"></a>
-</p>
-
 # Auto-cancel redundant Workflow Runs
+
+**🛑 This project is archived 🛑**
+
+You can do it better using [`concurrency` with `cancel-in-progress: true`](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#concurrency).
 
 ## Usage
 
